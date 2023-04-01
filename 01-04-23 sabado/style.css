@@ -1,4 +1,12 @@
 .contenedor{
+    -webkit-column-count:  3;
+    -webkit-column-gap: 30px;
+    -webkit-column-rule: 1px solid black;
+}
+
+
+
+.contenedor{
     background-color: aquamarine;
     padding: 9px;
     text-align: left;

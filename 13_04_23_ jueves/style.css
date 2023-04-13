@@ -53,20 +53,25 @@ body {
     margin-bottom: 15px;
 }
 
-.form-login {
+.form-login b {
     height: 40px;
     text-align: left;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
-.form-login a {
+.form-login b {
     color: rgb(57, 2, 255);
     text-decoration: none;
     font-size: 14px;
     background:#FDC7F6 ;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     box-shadow: 7px 13px 37px #e61aca;
     padding: 11px 10px;
 }
 .form-login a:hover {
     text-decoration: underline;
+}
+.form-login p{
+    margin-bottom: 12px;
+    text-align: center;
+
 }

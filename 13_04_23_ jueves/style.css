@@ -51,5 +51,18 @@ body {
     border: none;
     color: white;
     margin-bottom: 15px;
+}
 
+.form-login {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-login a:hover {
+    text-decoration: underline;
 }

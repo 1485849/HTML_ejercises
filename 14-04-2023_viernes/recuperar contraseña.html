@@ -10,13 +10,86 @@
     
     <h1>RECUPERAR CONTRASEÑA</h1>
     <div class="container">
+        <h2>Ingrese el correo con el que se ha registrado</h2>
         <form action="" class="form">
             <div class="form--correo">
                 <input type="email" placeholder="enter email" class="correo">
             </div>
             <div class="form--button">
-                <a href="">Cancel</a>
-                <button>accept</button>
+                <a class="cancel" href="">Cancel</a>
+                <button class="accept"> accept</button>
+                <style>
+                    *{
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+
+                    body{
+                        background-image:url(ima.jpg)  ;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        margin-top: 250px;
+                    }
+
+                    h1 {
+                        text-align: center;
+                        padding: 20px;
+                        color: rgb(232, 251, 24);
+                    }
+
+                    .container {
+                        width: 600px;
+                        height: 250px;
+                        padding: 20px;
+                        margin: auto;
+                        background: #daa6ed ; 
+                        box-shadow: 7px 13px 37px #2ECC71
+                    }
+
+                    h2{
+                        text-align: center;
+                        padding: 20px 10px;
+                    }
+
+                    .correo{
+                        width:100%;
+                        border: none;
+                        background: none;
+                        border-bottom: solid #D6DBDF;
+                        padding: 15px;
+                        outline: none;
+                        margin-bottom: 25px;
+                        font-size: 18px
+                    }
+                    .correo:focus{
+                        border-bottom: solid #0000FF;
+                    }
+                    .form--button{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .cancel{
+                        text-decoration: none;
+                        background: #FF0000;
+                        padding: 5px 20px;
+                        color: white;
+                        font-size: 14px;
+                    }
+                    .cancel:hover{
+                        background: #9f0808;
+                    }
+                    .accept{
+                        background: #07853c;
+                        padding: 8px 15px;
+                        color: white;
+                        border: none;
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                    .accept:hover{
+                        background: #4fc07e ;
+                    }
+                </style>
             </div>
         </form>
     </div>
